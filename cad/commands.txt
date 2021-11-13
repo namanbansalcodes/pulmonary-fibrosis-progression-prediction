@@ -1,0 +1,11 @@
+tensorflow_model_server --port=9000 --model_name=effnet --model_base_path="/mnt/c/Users/naman/OneDrive/Desktop/Cad System/cad/home/effnet"
+
+saved_model_cli show --dir "C:/Users/naman/OneDrive/Desktop/Cad System/cad/home/effnet/1/" --all
+
+
+
+
+
+tensorflow_model_server --port=9001 --model_name=lstmnet --model_base_path="/mnt/c/Users/naman/OneDrive/Desktop/Cad System/cad/home/lstmnet"
+
+saved_model_cli show --dir "C:/Users/naman/OneDrive/Desktop/Cad System/cad/home/lstmnet/1/" --all

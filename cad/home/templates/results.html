@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{%load plotly_dash%}
+
+{% block content %}
+    <div class="row">
+        <div class="col-12 p-2">
+            {%plotly_app name="dashapp" ratio=1%}
+        </div>
+    </div>
+
+
+{% endblock content %}

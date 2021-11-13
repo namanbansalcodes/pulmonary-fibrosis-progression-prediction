@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-8 p-5 align-self-left table-responsive">
+        <table>
+            <form action="" method="POST" class="post-form" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_table }}
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit" name='submit'></td>
+                </tr>
+
+            </form>
+        </table>
+    </div>
+</div>
+
+
+{% endblock content %}
