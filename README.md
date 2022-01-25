@@ -27,7 +27,7 @@ net effect of removing tiny features like pulmonary noise. Using bounding boxes 
 image label to identify which ones represent lung and which ones represent "everything else". 
 We create the masks of the segmented lung and multiply them with the original image. [10]
 
-![Step by Step implementation to apply mask of the CT scan](https://ibb.co/1dqcsTC)
+![Step by Step implementation to apply mask of the CT scan](https://flic.kr/p/2mZefn9)
 
 We then merge the cropped, segmented, and normalized images from the CT scans into one 
 variable and add a channel to it, this step is called dimension scaling. Now we are ready to
