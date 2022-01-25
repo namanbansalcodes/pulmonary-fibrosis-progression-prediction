@@ -77,3 +77,78 @@ We were aiming the validation LLL metric to be less between the range -6.0 to -6
 
 Looking at the figure it can be concluded that fold 4 did the best, as it has the lowest score. 
 Remember, the more the predictions are tending over zero, the better it is.
+
+## Conclusion & Future Work
+Now that both the aims of the model have been achieved, we can compare our validation accuracy to 
+that of other solution that we discussed in the literature review.
+EfficientNet is a convolutional neural network architecture and scaling method that uniformly scales 
+all dimensions of depth/width/resolution using a compound coefficient.
+In general, the EfficientNet models achieve both higher accuracy and better efficiency over existing 
+CNNs, reducing parameter size and FLOPS by an order of magnitude. ... In particular, our EfficientNetB7 achieves new state-of-the-art 84.4% top-1 / 97.1% top-5 accuracy, while being 8.4x smaller than the 
+best existing CNN.
+This project can be significantly used in multiple ways in the real world, especially in Hospitals and 
+other Centre for tracking down and diagnosing with these diseases. One such use case can be the 
+Hospital Management System where the Doctors and Medical Staff are trained and can diagnose the 
+issues of the patient, in such a setting this model can help detect the disease of patients on call and give 
+real-time diagnosis on the efficiency of the Doctors and Staff executive
+
+## References
+
+1. https://www.kaggle.com/artkulak/inference-45-55-600-epochs-tuned-effnet-b5-30-ep
+2. https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/discussion/165727
+3. https://www.kaggle.com/hfutybx/osic-feature-extract-from-ct
+4. Benjamin Le Cook, Williard G. Manning, “Thinking beyond the mean: a practical guide for using 
+quantile regression methods for health services research,” in US National library of Medicine, 2013.
+5. Nancy L Wilczynski, Douglas Morgan, R Brian Haynes, the Hedges Team-1, “An overview of the 
+design and methods for retrieving high-quality studies for clinical care,” in US National library of 
+Medecine, 2005.
+6. F.A. Gers, J. Schmidhuber, F. Cummins, “Learning to forget: continual prediction with LSTM,” in
+IET: Digital Library , 1999.
+7. https://www.kaggle.com/yasufuminakama/osic-lgb-baseline
+8. Harvard Chen, “DICOM Processing and Segmentation in Python,” in Radiology Data Quest, 2017.
+9. Alexander Etz, “Introduction to the Concept of Likelihood and Its Applications,” in Association of 
+Psychological Science, 2018.
+10. Nitish Srivastava and Geoffrey Hinton and Alex Krizhevsky and Ilya Sutskever and Ruslan 
+Salakhutdinov, “Dropout: A Simple Way to Prevent Neural Networks from Overfitting,” in Journal 
+of Machine Learning Research, 2014.
+11. Sakshi Indolia, Anil Kumar Goswami, S.P. Mishra, Pooja Asopa,“ Conceptual 
+understanding of Convolutional Neural Networks – A deep earning Approach” in
+Procedia Computer Science, 2018.
+xxxix
+12. Simon L F Walsh, Stephen M Humphries, Athol U Wells, Kevin K Brown, “Imaging research in 
+fibrotic lung disease; applying deep learning to unsolved problems”, in Lancet Respir Med, 2020.
+13. He, K., Zhang, X., Ren, S., and Sun, J., “Deep residual learning for image recognition. 
+CVPR,”
+14. Walsh SLF, Calandriello L, Silva M, Sverzellati N., “Deep learning for classifying 
+fibrotic lung disease on high-resolution computed tomography: a case-cohort study,” in 
+Lancet Respir Med 2018.
+15. Krizhevsky, A., Sutskever, I., and Hinton, G. E.,“ Imagenet classification with deep 
+convolutional neural networks,” in NIPS, 2012.
+16. M. Anthimopoulos, S. Christodoulidis, A. Christe and S. Mougiakakou, “ Classification 
+of Interstitial Lung Disease Patterns Using Local DCT Features and Random Forest.”
+17. Q. Li et al., "Lung image patch classification with automatic feature learning," in Proc. 
+Int. Conf. IEEE Eng. Med. Biol. Soc. EMBS 2013.
+18. K.T. Vo et al., "Multiple kernel learning for classification of diffuse lung disease using 
+HRCT lung images," in Proc. Int. Conf. IEEE Eng. Med. Biol. Soc. EMBS 2010
+19. M. Gangeh et al., “A texton-based approach for the classification of lung parenchyma in 
+ct images”, Med Image Comput Comput Assist Interv. Vol. 13(Pt 3)
+20. Blackwell, Timothy S., et al. "Future directions in idiopathic pulmonary fibrosis research. 
+An NHLBI workshop report." American journal of respiratory and critical care medicine 
+189.2 (2014): 214-222.
+21. Chua, Felix, Jack Gauldie, and Geoffrey J. Laurent. "Pulmonary fibrosis: searching for 
+model answers." American journal of respiratory cell and molecular biology 33.1 (2005)
+22. Czaplinski, A., A. A. Yen, and Stanley H. Appel. "Forced vital capacity (FVC) as an 
+indicator of survival and disease progression in an ALS clinic population." Journal of 
+Neurology, Neurosurgery & Psychiatry 77.3 (2006): 390-392.
+23. Zappala, C. J., et al. "Marginal decline in forced vital capacity is associated with a poor 
+outcome in idiopathic pulmonary fibrosis." European Respiratory Journal 35.4 (2010): 
+xl
+830-836.
+24. Koenker, Roger, and Kevin F. Hallock. "Quantile regression." Journal of economic 
+perspectives 15.4 (2001): 143-156.
+25. Hao, Lingxin, Daniel Q. Naiman, and Daniel Q. Naiman. Quantile regression. No. 149. Sage, 2007.
+26. Bottai, Matteo, Nicola Orsini, and Marco Geraci. "A gradient search maximization algorithm for the 
+asymmetric Laplace likelihood." Journal of Statistical Computation and Simulation 85.10 (2015): 
+1919-1925.
+27. Baldi, Pierre, and Peter J. Sadowski. "Understanding dropout." Advances in neural information 
+processing systems 26 (2013): 2814-2822
